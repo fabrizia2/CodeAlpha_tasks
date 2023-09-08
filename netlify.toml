@@ -1,0 +1,12 @@
+# Global settings for Netlify
+[build]
+  command = ""  # Replace with your build command if applicable
+  
+
+# Publish settings for temperature_converter
+[[redirects]]
+  from = "/temperature_converter/*"       # Define the URL path for temperature_converter
+  to = "/temperature_converter"     # Specify the directory path for temperature_converter
+  status = 200
+  publish = "temperature_converter"       # Specify the directory to publish for temperature_converter
+

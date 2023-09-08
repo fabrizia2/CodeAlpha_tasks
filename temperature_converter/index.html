@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <form id="temperature-form">
+            <input type="text" id="temperature-input" placeholder="00"  class="focus:bg-white">
+            <select id="from-scale"></select>
+            
+            <div class="temperature-arrow"></div>
+            <select id="to-scale"></select>
+            <div id="result">00</div>
+        </form>
+        <button type="button" id="convert-button">Convert</button>
+        
+    </div>
+    <div class="mode-switch">Dark Mode</div>
+    <script src="script.js"></script>
+</body>
+</html>
